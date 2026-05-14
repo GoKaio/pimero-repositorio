@@ -1,0 +1,139 @@
+ <style>
+
+        /* FUNDO */
+        body{
+            margin: 0;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(to bottom, #2f66c7, #5c5c5c);
+
+            font-family: Arial, sans-serif;
+        }
+
+        /* CAIXA */
+        .login{
+            width: 400px;
+
+            background-color: #ececec;
+
+            padding: 40px;
+
+            border-radius: 20px;
+
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+
+            text-align: center;
+        }
+
+        /* TITULO */
+        h1{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        /* LABEL */
+        label{
+            display: block;
+
+            text-align: left;
+
+            font-size: 22px;
+
+            margin-top: 15px;
+        }
+
+        /* INPUT */
+        input{
+            width: 100%;
+
+            padding: 12px;
+
+            margin-top: 5px;
+
+            border-radius: 10px;
+
+            border: 1px solid black;
+
+            font-size: 18px;
+
+            box-sizing: border-box;
+        }
+
+        /* BOTÃO */
+        button{
+            width: 100%;
+
+            padding: 14px;
+
+            margin-top: 25px;
+
+            border: none;
+
+            border-radius: 10px;
+
+            background-color: #0066ff;
+
+            color: white;
+
+            font-size: 20px;
+
+            cursor: pointer;
+        }
+
+        /* EFEITO */
+        button:hover{
+            background-color: #0044aa;
+        }
+
+        /* LINKS */
+        a{
+            display: block;
+
+            margin-top: 20px;
+
+            text-decoration: none;
+
+            color: #0066ff;
+
+            font-size: 18px;
+        }
+
+    </style>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title>Login</title>
+
+   
+</head>
+
+<body>
+
+    <div class="login">
+
+        <h1>Login</h1>
+
+        <form>
+
+            <label>Email</label>
+            <input type="text" placeholder="Digite seu email">
+
+            <label>Senha</label>
+            <input type="password" placeholder="Digite sua senha">
+
+            <button type="submit">Entrar</button>
+
+        </form>
+
+        <a href="cadastro.html">Criar conta</a>
+
+    </div>
+
+</body>
+</html>
