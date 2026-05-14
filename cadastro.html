@@ -1,0 +1,146 @@
+<style>
+
+        /* FUNDO */
+        body{
+            margin: 0;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(to bottom, #2f66c7, #5c5c5c);
+
+            font-family: Arial, sans-serif;
+        }
+
+        /* CAIXA */
+        .cadastro{
+            width: 400px;
+
+            background-color: #ececec;
+
+            padding: 40px;
+
+            border-radius: 20px;
+
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+
+            text-align: center;
+        }
+
+        /* TITULO */
+        h1{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        /* LABEL */
+        label{
+            display: block;
+
+            text-align: left;
+
+            font-size: 22px;
+
+            margin-top: 15px;
+        }
+
+        /* INPUT */
+        input{
+            width: 100%;
+
+            padding: 12px;
+
+            margin-top: 5px;
+
+            border-radius: 10px;
+
+            border: 1px solid black;
+
+            font-size: 18px;
+
+            box-sizing: border-box;
+        }
+
+        /* BOTÃO */
+        button{
+            width: 100%;
+
+            padding: 14px;
+
+            margin-top: 25px;
+
+            border: none;
+
+            border-radius: 10px;
+
+            background-color: #0066ff;
+
+            color: white;
+
+            font-size: 20px;
+
+            cursor: pointer;
+        }
+
+        /* EFEITO */
+        button:hover{
+            background-color: #0044aa;
+        }
+
+        /* LINK */
+        a{
+            display: block;
+
+            margin-top: 20px;
+
+            text-decoration: none;
+
+            color: #0066ff;
+
+            font-size: 18px;
+        }
+
+    </style>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    
+</head>
+
+<body>
+
+    <div class="cadastro">
+
+        <h1>Cadastro</h1>
+
+        <form>
+
+            <label>Nome</label>
+            <input type="text" placeholder="Digite seu nome">
+
+            <label>Email</label>
+            <input type="email" placeholder="Digite seu email">
+
+            <label>Senha</label>
+            <input type="password" placeholder="Digite sua senha">
+
+            <label>Confirmar senha</label>
+            <input type="password" placeholder="Confirme sua senha">
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+        <a href="login.html">Voltar para Login</a>
+
+    </div>
+
+</body>
+</html>
